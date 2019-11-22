@@ -9,18 +9,18 @@
     -   js-asserts
         -   Ugly version. Exploit code for debug js shell. The code is toooooo ugly. But it can work.
         -   js-code
-            -   [exp.js](js-assert\js-code\exp.js)
+            -   [exp.js](js-assert/js-code\exp.js)
                 -   exploit code.
-            -   [mem_lay.js](js-assert\js-code\mem_lay.js)
+            -   [mem_lay.js](js-assert/js-code/mem_lay.js)
                 -   To dump the memory layout.
-            -   [sg.js](js-assert\js-code\sg.js)
+            -   [sg.js](js-assert/js-code/sg.js)
                 -   To observe the shape and group of a object.
     -   js-release
         -   Ugly version. Exploit code for release js shell. The code is toooooo ugly. But it can work.
         -   js-code
-            -   [poc.js](js-release\js-code\poc.js)
+            -   [poc.js](js-release/js-code/poc.js)
                 -   exploit code. But it is archived with hardcoded offsets.
-            -   [exp.js](js-release\js-code\exp.js)
+            -   [exp.js](js-release/js-code/exp.js)
                 -   exploit code. Use pe_leak.js's function to find the offset dynamicly.
-            -   [pe_leak.js](js-release\js-code\pe_leak.js)
+            -   [pe_leak.js](js-release/js-code/pe_leak.js)
                 -   Some `PE` function like that we could to find `IAT` table... It is ugly, but it can work. Avoid with hardware offset.
