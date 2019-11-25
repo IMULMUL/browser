@@ -2,14 +2,14 @@
 
 `blazefox` is from [Blaze CTF 2018](https://ctftime.org/task/6000). I read [doare-team's blog](https://doar-e.github.io/blog/2018/11/19/introduction-to-spidermonkey-exploitation/).
 
--   [my personal write-up(Chinese)](https://redogwu.github.io/)
+-   [my personal write-up(Chinese)](https://redogwu.github.io/2019/11/25/just-pwn-it-for-fun-00-B/)
 -   blazefox
     -   exp-tools
         -   Written by [saelo](https://twitter.com/5aelo). It is in order to represent 64-bit integers (that we cannot represent today with JavaScript native integers) and have utility functions to convert a double to an Int64 or vice-versa. 
     -   js-asserts
         -   Ugly version. Exploit code for debug js shell. The code is toooooo ugly. But it can work.
         -   js-code
-            -   [exp.js](js-assert/js-code\exp.js)
+            -   [exp.js](js-assert/js-code/exp.js)
                 -   exploit code.
             -   [mem_lay.js](js-assert/js-code/mem_lay.js)
                 -   To dump the memory layout.
